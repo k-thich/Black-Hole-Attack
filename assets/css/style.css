@@ -1,0 +1,176 @@
+* {
+    color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+}
+
+div#start-page {
+    margin: 35px auto;
+    display: block;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    background: #171717;
+}
+
+div#start-page h1#title {
+    padding-top: 80px;
+    font-size: 3em;
+}
+
+div#start-page div#high-score {
+    font-size: 1.5em;
+}
+
+div#start-page #high-scores1 {
+    font-size: 1em;
+}
+
+div#start-page #high-scores2 {
+    font-size: 1em;
+}
+
+div#start-page #high-scores3 {
+    font-size: 1em;
+}
+
+
+div#start-page button#start-button {
+    border: none;
+    margin-top: 30px;
+    padding: 20px 40px;
+    color: black;
+    font-size: 1.5em;
+}
+
+div#transition-page {
+    margin: 35px auto;
+    display: block;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    background: #171717;
+}
+
+div#transition-page h1#transition-title {
+    padding-top: 80px;
+    font-size: 3em;
+}
+
+div#transition-page div#current-score {
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+div#transition-page button#next-button {
+    border: none;
+    margin-top: 50px;
+    padding: 20px 40px;
+    color: black;
+    font-size: 1.5em;
+}
+
+
+div#game-page {
+    height: 643px;
+    width: 1000px;
+    border-style: solid;
+    display: none;
+    margin: 35px auto;
+}
+
+div#game-page div#info-bar{
+    height: 40px;
+    border-bottom-style: solid;
+    background: #171717;
+    color: white;
+}
+
+div#info-bar {
+    display: -webkit-flex;
+    display: flex;
+}
+
+span#level, span#level-num, span#score,
+span#score-num,
+span#timer, span#timer-secs{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+span#timer, span#timer-secs {
+    text-align: center;
+    margin-left: 10px;
+}
+
+span#level {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+span#level-num {
+    margin-right: 250px;
+}
+
+span#score-num {
+    margin-right: 250px;
+    margin-left: 25px;
+}
+
+button#pause-button {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+button.pause {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+}
+
+button.play {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    padding-left: 31.5px;
+    padding-right: 31.5px;
+    color: black;
+}
+
+#game-canvas {
+    background-color: #304C5A;
+}
+
+#game-canvas, #overlay {
+    position: absolute;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1000px;
+    height: 600px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay h1{
+    max-width: 50%;
+}

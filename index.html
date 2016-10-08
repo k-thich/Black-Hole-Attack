@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Black Hole Attack</title>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <script src="assets/scripts/script.js" type="text/javascript" async></script>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+    <div id="start-page">
+        <h1 id="title">black hole attack</h1>
+        <div id="high-score">
+            <h2 id="score-label">high scores:</h2>
+            <h2 id="high-scores1">0</h2>
+            <h2 id="high-scores2">0</h2>
+            <h2 id="high-scores3">0</h2>
+        </div>
+        <button id="start-button">START GAME</button>
+    </div>
+        
+    <div id="transition-page">
+        <h1 id="transition-title">level 2</h1>
+        <div id="current-score">
+            <h2 id="transition-score-label">score:</h2>
+            <h2 id="transition-scores">0</h2>
+        </div>
+        <button id="next-button">NEXT</button>
+    </div> 
+    
+    <div id="game-page">
+        <div id="info-bar">
+            <span id="level">level</span>
+            <span id="level-num">1</span>
+            
+            <span id="score">score:</span>
+            <span id="score-num">200</span>
+            
+            <button id="pause-play-button" class="pause">PAUSE</button>
+            
+            <span id="timer">60</span>
+            <span id="timer-secs">seconds</span>
+
+        </div>
+        <canvas id="game-canvas" width="1000px" height="600px"></canvas>
+        <div id="overlay">
+            <h1>GAME PAUSED</h1>
+        </div>
+    </div>
+
+    
+    </body>
+</html>
